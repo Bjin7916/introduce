@@ -1,20 +1,40 @@
-import * as S from '../../styles/theme';
+import * as S from "../../styles/theme";
+import '../../styles/skeleton.css'
+import me from "../../images/itsme.jpg";
 
 
-function Profile(){
-
-
+function Profile() {
     return (
-        <S.content>
+        <S.content_wrap>
             <S.title>Jin's Profile!</S.title>
-            <div>
-                <p>이   름 : 정범진</p>
-                <p>생년월일 : 1990.07.21</p>
-                <p>거주지역 : 서울시 동작구 상도동</p>
-                <p>이 메 일 : jine7916@gmail.com</p>
-                <p></p>
-            </div>
-        </S.content>
+            <S.content>
+                <S.imgBox>
+                    <img src={me} width={"180px"} height={"240px"} alt="myself" />
+                </S.imgBox>
+                <table className="table">
+                    <tr>
+                        <td>이&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 름</td>
+                        <td>정범진</td>
+                    </tr>
+                    <tr>
+                        <td>생년월일</td>
+                        <td>1990.07.21</td>
+                    </tr>
+                    <tr>
+                        <td>거주지역</td>
+                        <td>서울시 동작구 상도동</td>
+                    </tr>
+                    <tr>
+                        <td>E-Mail</td>
+                        <td>jine7916@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Git</td>
+                        <td><a href="https://github.com/Bjin7916">https://github.com/Bjin7916</a></td>
+                    </tr>
+                </table>
+            </S.content>
+        </S.content_wrap>
     );
 }
 export default Profile;

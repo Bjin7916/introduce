@@ -1,0 +1,32 @@
+.card {
+    width: 200px;
+    height: 400px;
+}
+
+.table tr td {
+    margin-top: 10px;
+    border: none;
+    text-align: start;
+    white-space: pre-line;
+    padding: 8px;
+}
+
+.table th{
+    text-align: start;
+    width: 120px;
+    white-space: inherit;
+    padding: 8px;
+}
+
+
+
+.Wrapper {
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+    background-color: rgba(182, 215, 245, 5);
+    color: black;
+    margin: 5px;
+    text-align: start;
+    white-space: pre-line;
+}
