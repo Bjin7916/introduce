@@ -13,6 +13,7 @@ export const sidebar = styled.div`
         padding: 20px;
         color: cadetblue;
         font-weight: bold;
+        font-size: 24px;
     }
     a {
         text-decoration: none;
@@ -78,9 +79,3 @@ export const PJ = styled.div`
     padding: 8px;
 `
 
-// export const card = styled.div`
-//     width: 200px;
-//     h2{
-//         font-size: 20px;
-//     }
-// `

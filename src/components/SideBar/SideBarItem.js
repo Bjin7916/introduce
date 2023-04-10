@@ -1,4 +1,6 @@
+
 function SideBarItem({menu}){
+    
 
     return (
         <div className="sidebar-item">

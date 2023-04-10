@@ -1,7 +1,6 @@
 import * as S from "../../styles/theme";
-import '../../styles/skeleton.css'
+import "../../styles/skeleton.css";
 import me from "../../images/itsme.jpg";
-
 
 function Profile() {
     return (
@@ -9,7 +8,12 @@ function Profile() {
             <S.title>Jin's Profile!</S.title>
             <S.content>
                 <S.imgBox>
-                    <img src={me} width={"180px"} height={"240px"} alt="myself" />
+                    <img
+                        src={me}
+                        width={"180px"}
+                        height={"240px"}
+                        alt="myself"
+                    />
                 </S.imgBox>
                 <table className="table">
                     <tr>
@@ -29,8 +33,12 @@ function Profile() {
                         <td>jine7916@gmail.com</td>
                     </tr>
                     <tr>
-                        <td>Git</td>
-                        <td><a href="https://github.com/Bjin7916">https://github.com/Bjin7916</a></td>
+                        <td>GitHub</td>
+                        <td>
+                            <a href="https://github.com/Bjin7916">
+                                https://github.com/Bjin7916
+                            </a>
+                        </td>
                     </tr>
                 </table>
             </S.content>

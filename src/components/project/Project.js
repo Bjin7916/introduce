@@ -73,7 +73,7 @@ function Project() {
                             <td>HTML, JavaScript</td>
                         </tr>
                         <tr>
-                            <th>Git</th>
+                            <th>GitHub</th>
                             <td>
                                 <a href="https://bjin7916.github.io/ovc-project/">
                                     https://bjin7916.github.io/ovc-project/

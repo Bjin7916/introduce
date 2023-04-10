@@ -14,7 +14,7 @@ function SideBar() {
 
     return (
         <S.sidebar className="sidebar">
-            <p>Jin's history</p>
+            <p>Dev Diary</p>
             {menus.map((menu, index) => {
                 return (
                     <Link to={menu.path} key={index}>
