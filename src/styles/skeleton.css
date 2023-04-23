@@ -3,9 +3,15 @@
     height: 400px;
 }
 
+.table{
+    margin-top: 20px;
+
+}
+
 .table tr td {
     margin-top: 10px;
     border: none;
+    border-style: hidden;
     text-align: start;
     white-space: pre-line;
     padding: 8px;

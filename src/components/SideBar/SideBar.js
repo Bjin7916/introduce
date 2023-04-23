@@ -5,7 +5,6 @@ import * as S from "../../styles/theme";
 function SideBar() {
     const pathName = useLocation().pathname;
 
-    console.log(pathName);
     const menus = [
         { name: "Home", path: "/" },
         { name: "Profile", path: "/profile" },

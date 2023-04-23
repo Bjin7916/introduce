@@ -10,8 +10,8 @@ function Profile() {
                 <S.imgBox>
                     <img
                         src={me}
-                        width={"180px"}
-                        height={"240px"}
+                        width={"240px"}
+                        height={"300px"}
                         alt="myself"
                     />
                 </S.imgBox>
@@ -40,7 +40,17 @@ function Profile() {
                             </a>
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            기술스택
+                        </td>
+                        <td>
+                            Java, Spring, Spring Framework, React, MYSQL, Tomcat, JavaScript etc
+                        </td>
+                    </tr>
                 </table>
+
+                
             </S.content>
         </S.content_wrap>
     );

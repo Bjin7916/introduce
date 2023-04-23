@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 
 export const sidebar = styled.div`
@@ -25,7 +25,7 @@ export const sidebar = styled.div`
 export const content_wrap = styled.div`
     display: flex;
     flex-direction: column;
-    background-color: lightslategray;
+    background-color: white;
     align-content: center;
     justify-content: center;
     min-width: 100%;
@@ -62,12 +62,12 @@ export const title = styled.h1`
 `;
 
 export const imgBox = styled.div`
-    margin-bottom: 20px;
-    width: 180px;
-    height: 240px;
+    width: 200px;
+    height: 300px;
     align-content: center;
     justify-content: center;
     margin: 0 auto;
+    margin-bottom: 20px;
     
 `
 
@@ -78,4 +78,7 @@ export const PJ = styled.div`
     justify-content: center;
     padding: 8px;
 `
+
+
+
 
